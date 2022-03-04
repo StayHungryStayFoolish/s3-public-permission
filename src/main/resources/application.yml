@@ -1,0 +1,12 @@
+server:
+  port: 8080
+application:
+  aws-access-key:
+  aws-secret-key:
+  amazon-s3-config:
+    # https://docs.aws.amazon.com/zh_cn/general/latest/gr/s3.html
+    region: ap-southeast-1
+    endpoint: s3.ap-southeast-1.amazonaws.com
+    bucket-name: img-hosting-site
+    folder-name: markdown-folder
+
